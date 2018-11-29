@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-28T19:10:10</date>
+  <millis>1543417810923</millis>
+  <sequence>0</sequence>
+  <logger>Server.Server</logger>
+  <level>FINE</level>
+  <class>Server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Сервер запущен</message>
+</record>
+<record>
+  <date>2018-11-28T19:10:10</date>
+  <millis>1543417810938</millis>
+  <sequence>1</sequence>
+  <logger>Server.Server</logger>
+  <level>FINE</level>
+  <class>Server.Server</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Невозможно прослушать порт 4444: </message>
+  <exception>
+    <message>java.net.BindException: Address already in use: JVM_Bind</message>
+    <frame>
+      <class>java.net.DualStackPlainSocketImpl</class>
+      <method>bind0</method>
+    </frame>
+    <frame>
+      <class>java.net.DualStackPlainSocketImpl</class>
+      <method>socketBind</method>
+      <line>106</line>
+    </frame>
+    <frame>
+      <class>java.net.AbstractPlainSocketImpl</class>
+      <method>bind</method>
+      <line>387</line>
+    </frame>
+    <frame>
+      <class>java.net.PlainSocketImpl</class>
+      <method>bind</method>
+      <line>190</line>
+    </frame>
+    <frame>
+      <class>java.net.ServerSocket</class>
+      <method>bind</method>
+      <line>375</line>
+    </frame>
+    <frame>
+      <class>java.net.ServerSocket</class>
+      <method>&lt;init&gt;</method>
+      <line>237</line>
+    </frame>
+    <frame>
+      <class>java.net.ServerSocket</class>
+      <method>&lt;init&gt;</method>
+      <line>181</line>
+    </frame>
+    <frame>
+      <class>Server.Server</class>
+      <method>main</method>
+      <line>234</line>
+    </frame>
+  </exception>
+</record>
+</log>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-29T23:41:16</date>
+  <millis>1543520476093</millis>
+  <sequence>15</sequence>
+  <logger>Server.JoinedClient</logger>
+  <level>FINE</level>
+  <class>Server.JoinedClient</class>
+  <method>run</method>
+  <thread>12</thread>
+  <message>ID 2 подключен к серверу.</message>
+</record>
+<record>
+  <date>2018-11-29T23:41:16</date>
+  <millis>1543520476094</millis>
+  <sequence>16</sequence>
+  <logger>Server.JoinedClient</logger>
+  <level>FINE</level>
+  <class>Server.JoinedClient</class>
+  <method>run</method>
+  <thread>12</thread>
+  <message>ID 2 ожидание запросов.</message>
+</record>
+<record>
+  <date>2018-11-29T23:41:23</date>
+  <millis>1543520483863</millis>
+  <sequence>17</sequence>
+  <logger>Server.JoinedClient</logger>
+  <level>FINE</level>
+  <class>Server.JoinedClient</class>
+  <method>run</method>
+  <thread>12</thread>
+  <message>ID 2 передал на сервер:signUp</message>
+</record>
+<record>
+  <date>2018-11-29T23:41:23</date>
+  <millis>1543520483864</millis>
+  <sequence>18</sequence>
+  <logger>Server.JoinedClient</logger>
+  <level>FINE</level>
+  <class>Server.JoinedClient</class>
+  <method>run</method>
+  <thread>12</thread>
+  <message>ID 2 пытается зарегистрироваться</message>
+</record>
+<record>
+  <date>2018-11-29T23:41:23</date>
+  <millis>1543520483870</millis>
+  <sequence>19</sequence>
+  <logger>Server.JoinedClient</logger>
+  <level>INFO</level>
+  <class>Server.JoinedClient</class>
+  <method>getConnect</method>
+  <thread>12</thread>
+  <message>Сервер подключился к БД</message>
+</record>
+<record>
+  <date>2018-11-29T23:41:23</date>
+  <millis>1543520483871</millis>
+  <sequence>20</sequence>
+  <logger>Server.JoinedClient</logger>
+  <level>FINEST</level>
+  <class>Server.JoinedClient</class>
+  <method>signUp</method>
+  <thread>12</thread>
+  <message>ID 2 делает запрос в БД для регистрации</message>
+</record>
+<record>
+  <date>2018-11-29T23:41:24</date>
+  <millis>1543520484471</millis>
+  <sequence>21</sequence>
+  <logger>Server.JoinedClient</logger>
+  <level>FINE</level>
+  <class>Server.JoinedClient</class>
+  <method>run</method>
+  <thread>12</thread>
+  <message>ID 2 зарегистрирован!</message>
+</record>
+<record>
+  <date>2018-11-29T23:41:26</date>
+  <millis>1543520486983</millis>
+  <sequence>22</sequence>
+  <logger>Server.JoinedClient</logger>
+  <level>FINE</level>
+  <class>Server.JoinedClient</class>
+  <method>run</method>
+  <thread>12</thread>
+  <message>ID 2 передал на сервер:man:man</message>
+</record>
+<record>
+  <date>2018-11-29T23:41:26</date>
+  <millis>1543520486987</millis>
+  <sequence>23</sequence>
+  <logger>Server.JoinedClient</logger>
+  <level>INFO</level>
+  <class>Server.JoinedClient</class>
+  <method>getConnect</method>
+  <thread>12</thread>
+  <message>Сервер подключился к БД</message>
+</record>
+<record>
+  <date>2018-11-29T23:41:26</date>
+  <millis>1543520486987</millis>
+  <sequence>24</sequence>
+  <logger>Server.JoinedClient</logger>
+  <level>FINEST</level>
+  <class>Server.JoinedClient</class>
+  <method>autorize</method>
+  <thread>12</thread>
+  <message>ID 2 делает запрос на авторизацию log=man, pass=man</message>
+</record>
+<record>
+  <date>2018-11-29T23:41:26</date>
+  <millis>1543520486988</millis>
+  <sequence>25</sequence>
+  <logger>Server.JoinedClient</logger>
+  <level>FINE</level>
+  <class>Server.JoinedClient</class>
+  <method>run</method>
+  <thread>12</thread>
+  <message>ID 2 авторизовался на сервере</message>
+</record>
+<record>
+  <date>2018-11-29T23:41:29</date>
+  <millis>1543520489725</millis>
+  <sequence>26</sequence>
+  <logger>Server.JoinedClient</logger>
+  <level>FINE</level>
+  <class>Server.JoinedClient</class>
+  <method>run</method>
+  <thread>12</thread>
+  <message>ID 2 произошла ошибка на стороне клиента</message>
+</record>
+</log>

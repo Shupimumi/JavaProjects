@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-29T23:43:53</date>
+  <millis>1543520633308</millis>
+  <sequence>1</sequence>
+  <logger>Server.JoinedClient</logger>
+  <level>FINE</level>
+  <class>Server.JoinedClient</class>
+  <method>run</method>
+  <thread>9</thread>
+  <message>ID 0 подключен к серверу.</message>
+</record>
+<record>
+  <date>2018-11-29T23:43:53</date>
+  <millis>1543520633308</millis>
+  <sequence>2</sequence>
+  <logger>Server.JoinedClient</logger>
+  <level>FINE</level>
+  <class>Server.JoinedClient</class>
+  <method>run</method>
+  <thread>9</thread>
+  <message>ID 0 ожидание запросов.</message>
+</record>
+<record>
+  <date>2018-11-29T23:44:04</date>
+  <millis>1543520644840</millis>
+  <sequence>3</sequence>
+  <logger>Server.JoinedClient</logger>
+  <level>FINE</level>
+  <class>Server.JoinedClient</class>
+  <method>run</method>
+  <thread>9</thread>
+  <message>ID 0 передал на сервер:man:man</message>
+</record>
+<record>
+  <date>2018-11-29T23:44:04</date>
+  <millis>1543520644997</millis>
+  <sequence>4</sequence>
+  <logger>Server.JoinedClient</logger>
+  <level>INFO</level>
+  <class>Server.JoinedClient</class>
+  <method>getConnect</method>
+  <thread>9</thread>
+  <message>Сервер подключился к БД</message>
+</record>
+<record>
+  <date>2018-11-29T23:44:05</date>
+  <millis>1543520645002</millis>
+  <sequence>5</sequence>
+  <logger>Server.JoinedClient</logger>
+  <level>FINEST</level>
+  <class>Server.JoinedClient</class>
+  <method>autorize</method>
+  <thread>9</thread>
+  <message>ID 0 делает запрос на авторизацию log=man, pass=man</message>
+</record>
+<record>
+  <date>2018-11-29T23:44:05</date>
+  <millis>1543520645010</millis>
+  <sequence>6</sequence>
+  <logger>Server.JoinedClient</logger>
+  <level>FINE</level>
+  <class>Server.JoinedClient</class>
+  <method>run</method>
+  <thread>9</thread>
+  <message>ID 0 авторизовался на сервере</message>
+</record>
+<record>
+  <date>2018-11-29T23:44:07</date>
+  <millis>1543520647095</millis>
+  <sequence>7</sequence>
+  <logger>Server.JoinedClient</logger>
+  <level>FINE</level>
+  <class>Server.JoinedClient</class>
+  <method>run</method>
+  <thread>9</thread>
+  <message>ID 0 передал на сервер:getQuest</message>
+</record>
+<record>
+  <date>2018-11-29T23:44:07</date>
+  <millis>1543520647095</millis>
+  <sequence>8</sequence>
+  <logger>Server.JoinedClient</logger>
+  <level>FINE</level>
+  <class>Server.JoinedClient</class>
+  <method>run</method>
+  <thread>9</thread>
+  <message>ID 0 отправил запрос на получение текста загадки.</message>
+</record>
+<record>
+  <date>2018-11-29T23:44:07</date>
+  <millis>1543520647095</millis>
+  <sequence>9</sequence>
+  <logger>Server.JoinedClient</logger>
+  <level>FINEST</level>
+  <class>Server.JoinedClient</class>
+  <method>getQuest</method>
+  <thread>9</thread>
+  <message>ID 0 делает запрос на получение файлов</message>
+</record>
+<record>
+  <date>2018-11-29T23:44:24</date>
+  <millis>1543520664758</millis>
+  <sequence>10</sequence>
+  <logger>Server.JoinedClient</logger>
+  <level>FINE</level>
+  <class>Server.JoinedClient</class>
+  <method>run</method>
+  <thread>9</thread>
+  <message>ID 0 передал на сервер:sendanswer</message>
+</record>
+<record>
+  <date>2018-11-29T23:44:24</date>
+  <millis>1543520664758</millis>
+  <sequence>11</sequence>
+  <logger>Server.JoinedClient</logger>
+  <level>FINEST</level>
+  <class>Server.JoinedClient</class>
+  <method>checkAnswer</method>
+  <thread>9</thread>
+  <message>ID 0 делает запрос передачу файла</message>
+</record>
+<record>
+  <date>2018-11-29T23:44:24</date>
+  <millis>1543520664759</millis>
+  <sequence>12</sequence>
+  <logger>Server.JoinedClient</logger>
+  <level>FINEST</level>
+  <class>Server.JoinedClient</class>
+  <method>run</method>
+  <thread>9</thread>
+  <message>ID 0 правильно ответил на загадку</message>
+</record>
+<record>
+  <date>2018-11-29T23:44:28</date>
+  <millis>1543520668223</millis>
+  <sequence>13</sequence>
+  <logger>Server.JoinedClient</logger>
+  <level>FINE</level>
+  <class>Server.JoinedClient</class>
+  <method>run</method>
+  <thread>9</thread>
+  <message>ID 0 передал на сервер:getQuest</message>
+</record>
+<record>
+  <date>2018-11-29T23:44:28</date>
+  <millis>1543520668223</millis>
+  <sequence>14</sequence>
+  <logger>Server.JoinedClient</logger>
+  <level>FINE</level>
+  <class>Server.JoinedClient</class>
+  <method>run</method>
+  <thread>9</thread>
+  <message>ID 0 отправил запрос на получение текста загадки.</message>
+</record>
+<record>
+  <date>2018-11-29T23:44:28</date>
+  <millis>1543520668223</millis>
+  <sequence>15</sequence>
+  <logger>Server.JoinedClient</logger>
+  <level>FINEST</level>
+  <class>Server.JoinedClient</class>
+  <method>getQuest</method>
+  <thread>9</thread>
+  <message>ID 0 делает запрос на получение файлов</message>
+</record>
+<record>
+  <date>2018-11-29T23:44:47</date>
+  <millis>1543520687965</millis>
+  <sequence>16</sequence>
+  <logger>Server.JoinedClient</logger>
+  <level>FINE</level>
+  <class>Server.JoinedClient</class>
+  <method>run</method>
+  <thread>9</thread>
+  <message>ID 0 произошла ошибка на стороне клиента</message>
+</record>
+</log>

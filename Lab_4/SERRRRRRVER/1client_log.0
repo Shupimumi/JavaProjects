@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-29T23:44:51</date>
+  <millis>1543520691695</millis>
+  <sequence>17</sequence>
+  <logger>Server.JoinedClient</logger>
+  <level>FINE</level>
+  <class>Server.JoinedClient</class>
+  <method>run</method>
+  <thread>11</thread>
+  <message>ID 1 подключен к серверу.</message>
+</record>
+<record>
+  <date>2018-11-29T23:44:51</date>
+  <millis>1543520691696</millis>
+  <sequence>18</sequence>
+  <logger>Server.JoinedClient</logger>
+  <level>FINE</level>
+  <class>Server.JoinedClient</class>
+  <method>run</method>
+  <thread>11</thread>
+  <message>ID 1 ожидание запросов.</message>
+</record>
+<record>
+  <date>2018-11-29T23:46:30</date>
+  <millis>1543520790919</millis>
+  <sequence>19</sequence>
+  <logger>Server.JoinedClient</logger>
+  <level>FINE</level>
+  <class>Server.JoinedClient</class>
+  <method>run</method>
+  <thread>11</thread>
+  <message>ID 1 произошла ошибка на стороне клиента</message>
+</record>
